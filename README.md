@@ -4,7 +4,7 @@ A modern, responsive landing page inspired by the Accredian Enterprise website, 
 
 ## 🚀 Live Demo
 
-https://your-vercel-url.vercel.app
+https://accredian-enterprise-git-main-rajan-sharmas-projects-d9162f8b.vercel.app/
 
 ## 📂 GitHub Repository
 
