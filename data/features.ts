@@ -1,33 +1,33 @@
 import {
   GraduationCap,
+  BriefcaseBusiness,
+  ChartColumnIncreasing,
   Users,
-  Award,
-  BarChart3,
 } from "lucide-react";
 
 export const features = [
   {
     icon: GraduationCap,
-    title: "Industry Programs",
+    title: "Industry-Focused Learning",
     description:
-      "Curated learning paths designed with leading industry experts.",
+      "Upskill your workforce with programs designed by top universities and industry experts.",
+  },
+  {
+    icon: BriefcaseBusiness,
+    title: "Enterprise Solutions",
+    description:
+      "Customized learning paths that align with your business objectives.",
+  },
+  {
+    icon: ChartColumnIncreasing,
+    title: "Performance Tracking",
+    description:
+      "Measure employee progress through analytics and detailed reports.",
   },
   {
     icon: Users,
-    title: "Expert Mentors",
+    title: "Dedicated Success Team",
     description:
-      "Learn directly from experienced professionals and mentors.",
-  },
-  {
-    icon: Award,
-    title: "Recognized Certifications",
-    description:
-      "Earn certifications that strengthen your team's capabilities.",
-  },
-  {
-    icon: BarChart3,
-    title: "Learning Analytics",
-    description:
-      "Track employee progress with detailed insights and reports.",
+      "A dedicated customer success manager to ensure maximum learning outcomes.",
   },
 ];

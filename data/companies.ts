@@ -1,26 +1,26 @@
 export const companies = [
   {
     name: "Google",
-    logo: "/images/logos/google.svg",
+    logo: "/images/google.png",
   },
   {
     name: "Microsoft",
-    logo: "/images/logos/microsoft.svg",
+    logo: "/images/mircosoft.png",
   },
   {
     name: "Amazon",
-    logo: "/images/logos/amazon.svg",
+    logo: "/images/amazon.png",
+  },
+   {
+    name: "Accenture",
+    logo: "/images/accenture.png",
+  },
+  {
+    name: "infosys",
+    logo: "/images/infosys.png",
   },
   {
     name: "Adobe",
-    logo: "/images/logos/adobe.svg",
-  },
-  {
-    name: "Infosys",
-    logo: "/images/logos/infosys.svg",
-  },
-  {
-    name: "Accenture",
-    logo: "/images/logos/accenture.svg",
+    logo: "/images/adobe.png",
   },
 ];
