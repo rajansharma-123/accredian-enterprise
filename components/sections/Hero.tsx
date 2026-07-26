@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -28,11 +29,11 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex gap-4">
-              <button className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700">
+              <button className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700 transition">
                 Book a Demo
               </button>
 
-              <button className="rounded-lg border border-blue-600 px-6 py-3 font-semibold text-blue-600 hover:bg-blue-50">
+              <button className="rounded-lg border border-blue-600 px-6 py-3 font-semibold text-blue-600 hover:bg-blue-50 transition">
                 Explore Programs
               </button>
             </div>
@@ -62,10 +63,15 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="flex justify-center"
           >
-            <div className="flex h-[420px] w-full max-w-md items-center justify-center rounded-3xl bg-blue-100 shadow-xl">
-              <span className="text-2xl font-bold text-blue-700">
-                Hero Illustration
-              </span>
+            <div className="flex items-center justify-center">
+              <Image
+                src="/images/hero.png"
+                alt="Enterprise Learning"
+                width={500}
+                height={500}
+                className="object-contain"
+                priority
+              />
             </div>
           </motion.div>
         </div>
