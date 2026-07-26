@@ -12,13 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "Accredian Enterprise",
-    template: "%s | Accredian Enterprise",
-  },
-  description:
-    "Empowering enterprises with scalable learning and workforce upskilling solutions.",
+export const metadata = {
+  title: "Accredian Enterprise",
+  description: "Enterprise Learning Solutions",
 };
 
 export default function RootLayout({

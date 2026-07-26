@@ -6,6 +6,10 @@ import Programs from "@/components/sections/Programs";
 import DomainExpertise from "@/components/sections/DomainExpertise";
 import SkillEnhancement from "@/components/sections/SkillEnhancement";
 import Testimonials from "@/components/sections/Testimonials";
+import FAQ from "@/components/sections/FAQ";
+import CTA from "@/components/sections/CTA";
+import LeadForm from "@/components/sections/LeadForm";
+import Footer from "@/components/layout/Footer";
 export default function Home() {
   return (
     <>
@@ -19,6 +23,10 @@ export default function Home() {
           <DomainExpertise />
           <SkillEnhancement />
           <Testimonials />
+          <FAQ />
+          <CTA />
+          <LeadForm />
+          <Footer />
 
       </main>
     </>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-b from-blue-50 to-white py-24">
+    <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-white py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Left */}

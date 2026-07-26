@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react";
 import Container from "../common/Container";
 import Button from "../common/Button";
 import { navigationLinks } from "@/data/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,6 +65,13 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
+            <Image
+  src="/images/logo.png"
+  alt="Accredian"
+  width={170}
+  height={42}
+  priority
+/>
 
             <Button className="mt-6 w-full">
               Book Demo
